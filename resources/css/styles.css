@@ -322,6 +322,7 @@ div.content {
     color: #77bc43;
     font-weight: 600;
     line-height: 1.5;
+    width: 100%;
 }
 
 .locations div.container-loc h4 {
@@ -337,8 +338,64 @@ div.content {
 
 .container-loc img {
     margin: 0.75rem 0;
-    width: 380px;
-    height: 416px;
+    width: 80%;
     border-radius: 5px;
     border: 1px solid darkgray;
+}
+
+
+/* FOOTER STYLING */
+footer {
+    position: relative;
+    height: 10rem;
+    background-color: #f5faf1;
+    border-top: 3px solid #77bc43;
+    text-align: center;
+}
+
+footer div.top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+footer h1 {
+    color: #68a43b;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+footer h2 {
+    color: #68a43b;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+footer h2 a {
+    color: blue;
+}
+
+footer div.bottom {
+    padding-top: 1rem;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer h3 {
+    font-size: 0.850rem;
+    line-height: 1.5;
+}
+
+footer .copyright h3 {
+    font-size: 0.8875rem;
+}
+
+footer h3 a {
+    font-weight: bold;
+    color: #68a43b;
 }
