@@ -77,6 +77,9 @@ section.home {
     height: 50rem;
     background-position: center;
     margin: 0 8rem;
+    border: 1px solid darkgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .banner .mission {
@@ -88,6 +91,7 @@ section.home {
     right: 10%;
     top: 7%;
     padding: 1.5rem 2.5rem;
+    border-radius: 5px;
 }
 
 .mission h1 {
@@ -139,7 +143,7 @@ section.stringing {
     margin: 0 8rem;
     text-align: center;
     color: #77bc43;
-    height: 50rem;
+    height: 48rem;
 }
 
 .stringing h1 {
@@ -193,6 +197,7 @@ div.strings {
 
 .string div.container img {
     margin-bottom: 1rem;
+    width: 12.5rem;
 }
 
 .strings div.container a {
@@ -206,4 +211,134 @@ div.strings {
 
 .string div.container a:hover {
     color: #53842f;
+}
+
+
+/* DEMOS STYLING */
+section.demos {
+    padding: 4rem 0;
+    position: relative;
+    margin: 0 8rem;
+    height: 50rem;
+}
+
+.demos .text-box {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    width: 39%;
+    background-color: #fff;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px #77bc43;
+    margin-top: 4rem;
+}
+
+.demos .text-box h1 {
+    font-size: 2.5rem;
+    color: #77bc43;
+    font-weight: bold;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+.demos .text-box p {
+    font-size: 1.35rem;
+    color: #77bc43;
+    line-height: 1.5;
+    margin: 0.75rem 0;
+}
+
+.demos .text-box span {
+    font-style: italic;
+}
+
+.demos .text-box p.rate {
+    font-weight: bold;
+    line-height: 2;
+}
+
+.demos .holder {
+    background-image: url(../images/racket-banner.jpg);
+    position: absolute;
+    display: inline-block;
+    width: 58%;
+    right: 0;
+    background-size: cover;
+    height: 90%;
+}
+
+.demos .holder a {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    color: #77bc43;
+    font-size: 0.8625rem;
+}
+
+
+/* LOCATIONS STYLING */
+section.locations {
+    position: relative;
+    padding: 4rem 0;
+    margin: 0 8rem;
+}
+
+.locations h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    color: #77bc43;
+    font-weight: bold;
+    line-height: 2;
+}
+
+div.content {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.locations .container-loc {
+    display: inline-flex;
+    background-color: #fff;
+    width: 30%;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border: 1px solid darkgray;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px #77bc43;
+}
+
+.locations .container-loc h2 {
+    font-size: 1.5rem;
+    color: #77bc43;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.locations div.container-loc h4 {
+    color: #77bc43;
+    line-height: 1.75;
+    font-size: 1.125rem;
+}
+
+.locations div.container-loc h4 span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container-loc img {
+    margin: 0.75rem 0;
+    width: 380px;
+    height: 416px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
 }
