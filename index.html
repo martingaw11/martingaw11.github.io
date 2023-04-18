@@ -1,129 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Tennis Ballerz</title>
-    <link rel="stylesheet" href="resources/css/styles.css">
-    <link rel="stylesheet" href="resources/css/reset.css">
-    <!-- FONTS -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Gawron</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/resources/images/favicon-color.ico/">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <a href="./index.html"><img src="resources/images/favicon-color.png" alt="Personal Logo"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <h1>Martin Gawron</h1>
+            <h2>CS Student</h2>
+            <h3>About</h3>
+            <p>Current Computer Science undergraduate enrolled at University of Illinois Chicago. Aspiring software engineer interested in topics of machine learning, data science, and full-stack development.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section class="projects" id="projects">
 
-  <!-- HEADER/TOP-BANNER -->
-  <header>
-    <div class="logo">
-      <img src="resources/images/Tennis_Ballerz_Logo-2.png" alt="">
-    </div>
-    <div class="navigation">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#stringing">Stringing</a></li>
-        <li><a href="#demos">Demos</a></li>
-        <li><a href="#locations">Locations</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <body>
-    <!-- TOP OF PAGE -->
-    <section class="home" id="home">
-      <div class="banner">
-        <div class="mission">
-          <h1>Tennis Ballerz</h1>
-          <p>We have been serving Chicago's racquet stringing, and customization needs over the past 25 years.</p>
-          <p><strong>Tennis Ballerz</strong> is the premier tennis pro shop in the Chicagoland area, with three locations:</p>
-          <ul>
-            <li><a href="#darien">Darien: (630) 537-1914</a></li>
-            <li><a href="#naperville">Naperville: (630) 946-6354</a></li>
-            <li><a href="#evanston">Evanston: (847) 425-0103</a></li>
-          </ul>
-        </div>
-        <h5><a href="">@Naperville</a></h5>
-      </div>
-    </section>
-    <!-- STRINGING SECTIONS -->
-    <section class="stringing" id="stringing">
-      <h1>Stringing</h1>
-      <h3>24-Hour Turn-Around Time</h3>
-      <h2>Types of Strings</h2>
-      <div class="strings">
-        <div class="container" id="synthetic">
-          <h4>Synthetic-Gut</h4>
-          <img src="resources/images/synthetic-string.jpg" alt="">
-          <h5><a href="https://tenniscompanion.org/synthetic-gut-tennis-strings/#what-is-synthetic-gut" target="_blank">Learn More</a></h5>
-        </div>
-        <div class="container" id="multifilament">
-          <h4>Multifilament</h4>
-          <img src="resources/images/multifilament-string.webp" alt="">
-          <h5><a href="https://tenniscompanion.org/multifilament-tennis-strings/#what-is-multifilament-tennis-string" target="_blank">Learn More</a></h5>
-        </div>
-        <div class="container" id="polyester">
-          <h4>Polyester</h4>
-          <img src="resources/images/polyester-string.jpg" alt="">
-          <h5><a href="https://tenniscompanion.org/polyester-tennis-strings/#what-is-polyester-tennis-string" target="_blank">Learn More</a></h5>
-        </div>
-        <div class="container" id="natural">
-          <h4>Natural-Gut</h4>
-          <img src="resources/images/natural-gut-string.jpg" alt="">
-          <h5><a href="https://tenniscompanion.org/natural-gut-tennis-strings/#why-natural-gut" target="_blank">Learn More</a></h5>
-        </div>
-      </div>
-    </section>
-    <!-- DEMOS SECTIONS -->
-    <section class="demos" id="demos">
-      <div class="text-box">
-        <h1>Demos</h1>
-        <p>Rent and try out rackets to see what best fits <span>your</span> tennis game.</p>
-        <p>Up to 2 demos can be checked out for up to a week at a rate of:</p>
-        <p class="rate">$2 a day per racket</p>
-        <p>Any amount spent toward demo fees can be taken off the final price of your brand new racket!</p>
-      </div>
-      <div class="holder">
-        
-        <a href="#naperville">@Naperville</a>
-      </div>
-    </section>
-    <!-- LOCATIONS SECTIONS -->
-    <section class="locations" id="locations">
-      <h1>Locations</h1>
-      <div class="content">
-        <div class="container-loc" id="darien">
-          <h2>DARIEN</h2>
-          <img src="resources/images/darien-location.JPG" alt="">
-          <h4><span>ADDRESS:</span> 6800 IL-83, Darien, IL 60561</h4>
-          <h4 class="phone"><span>PHONE:</span> (630) 537-1914</h4>
-        </div>
-        <div class="container-loc" id="naperville">
-          <h2>NAPERVILLE</h2>
-          <img src="resources/images/naperville-location.jpg" alt="">
-          <h4><span>ADDRESS:</span> 924 W 75th St, Naperville, IL 60565</h4>
-          <h4 class="phone"><span>PHONE:</span> (630) 946-6354</h4>
-        </div>
-        <div class="container-loc" id="evanston">
-          <h2>EVANSTON</h2>
-          <img src="resources/images/evanston-location.jpeg" alt="">
-          <h4><span>ADDRESS:</span> 1623 Sherman Ave, Evanston, IL 60201</h4>
-          <h4 class="phone"><span>PHONE:</span> (847) 425-0103</h4>
-        </div>
-      </div>
-    </section>
-    <!-- BOTTOM/FOOTER -->
+        </section>
+    </main>
     <footer>
-      <div class="top">
-        <h1>Local business owned by a local man. Curtis Ikeuchi</h2>
-        <h2>Look us up on Facebook! <a href="https://www.facebook.com/TennisBallerz">link</a></h2>
-      </div>
-      <div class="bottom">
-        <div class="created-by">
-          <h3>Websited Created by: <a href="https://www.linkedin.com/in/gawron-martin/">Martin Gawron</a></h3>
-        </div>
-        <div class="copyright">
-          <h3>@ 2023 TENNIS BALLERZ. All rights reserved.</h3>
-        </div>
-      </div>
+
     </footer>
-  </body>
+</body>
 </html>
