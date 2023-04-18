@@ -70,4 +70,66 @@ section.about {
     font-weight: 600;
 }
 
+.about h2 {
+    font-size: 1.75rem;
+    opacity: 60%;
+}
 
+/* ABOUT */
+.about article {
+    padding: 3rem 5% 1.5rem 5%;
+    width: 80%;
+}
+
+.about h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    line-height: 1.5;
+    padding-bottom: 0.5rem;
+    font-weight: 550;
+}
+
+.about-me p {
+    font-size: 1.25rem;
+    padding-left: 2.5%;
+}
+
+/* SKILLS */
+article.skills {
+    padding-right: 0;
+    width: 90%;
+}
+
+.skills ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.skills li {
+    display: block;
+    font-size: 1.25rem;
+    width: 37.5%;
+    min-width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: -1em 0 .5em whitesmoke;
+}
+
+.skills h4 {
+    display: inline-flex;
+    position: relative;
+    vertical-align: top;
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.skills li img {
+    display: inline-flex;
+    width: 3rem;
+    margin-right: 0.5rem;
+}
