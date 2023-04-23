@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="resources/js/main.js"></script>
 </head>
 <body>
     <header>
@@ -18,12 +19,12 @@
             <div class="nav-logo">
                 <a href="./index.html"><img src="resources/images/favicon-color.png" alt="Personal Logo"></a>
             </div>
-            <div class="nav-links">
+            <div class="nav-links" id="navbar">
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="index.html" class="animation">Home</a></li>
                     <!-- <li><a href="#about">About</a></li> -->
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#projects" class="animation">Projects</a></li>
+                    <li><a href="" class="animation">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -106,7 +107,7 @@
     <footer>
         <div class="container">
             <div class="objects main">
-                <img src="resources/images/white-logo-transparent.png" alt="">
+                <img src="resources/images/white-logo-transparent.png" alt="Website Logo">
                 <h4>Website Built by <strong>Martin Gawron</strong></h4>
             </div>
             <div class="objects nav">
@@ -117,8 +118,8 @@
                 </ul>
             </div>
             <div class="objects contact">
-                <img src="resources/images/LI-In-Bug.png" alt="LinkedIn Logo">
-                <img src="resources/images/github-mark.png" alt="Github Logo">
+                <a href="https://www.linkedin.com/in/gawron-martin/" target="_blank"><img src="resources/images/LI-In-Bug.png" alt="LinkedIn Logo"></a>
+                <a href="https://github.com/martingaw11" target="_blank"><img src="resources/images/github-mark.png" alt="Github Logo"></a>
             </div>
         </div>
     </footer>
