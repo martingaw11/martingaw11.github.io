@@ -296,13 +296,13 @@ div.object:hover {
 }
 
 .object a {
-    display: block;
-    width: 100%;
+    width: 38px;
     font-size: 1.15rem;
     padding-bottom: 1rem;
     padding-left: 0.25rem;
     color: #4B91F1;
     text-decoration: none;
+    margin-right: 80%;
 }
 
 .view {
@@ -313,7 +313,7 @@ div.object:hover {
 .view::after {
     content: '';
     position: absolute;
-    width: 10%;
+    width: 100%;
     transform: scaleX(0);
     height: 2px;
     bottom: 1rem;
