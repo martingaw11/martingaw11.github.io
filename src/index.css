@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 * {
-  @apply font-sans box-border
+  @apply font-sans box-border;
+}
+
+.navbar-grow {
+  @apply right-7 sm:right-10 md:right-16 lg:right-32 xl:right-60;
+  @apply top-2 sm:top-3 md:top-4 lg:top-5 xl:top-5;
+  @apply w-80 lg:w-96 xl:w-96;
 }
 
 .navbar-link {
-  @apply inline text-2xl text-white font-bold relative
+  @apply inline text-2xl text-white font-bold relative;
 }
 
 .navbar-link::after {
@@ -26,4 +32,9 @@
 .navbar-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.body-grow {
+  @apply w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12;
+  @apply mx-4 sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto;
 }
