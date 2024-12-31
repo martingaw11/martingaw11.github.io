@@ -1,8 +1,15 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## <u>Martin Gawron</u>
+#### &ensp;&ensp;&ensp; CS | SWE @ UIC
+#### &ensp;&ensp;&ensp; Intern w/ Intelligent Automation @ CIC
 
-Currently, two official plugins are available:
+### Description:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio Website for easy showcase of project that I have worked on :)  
+
+Currently I am a Senior at UIC planning on graduation December '25  
+I also work at Cincinnati Insurance Companies as an Intern with Intelligent Automation  
+
+Right now I am working a lot on leveraging Artificial Intelligence for task automation,  
+however, I enjoy developing interactive and insightful applications
