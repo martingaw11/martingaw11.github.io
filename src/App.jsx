@@ -1,18 +1,27 @@
 import NavBar from './components/NavBar'
+import TypingTextList from './components/TypingTextList'
 import './index.css'
+
+const attr = [
+  "Developer Intern w/ Intelligent Automation @ CIC",
+  "Computer Science and Software Engineering @ UIC",
+  "Full Stack Developer",
+  "Web Developer",
+]
 
 function App() {
   
 
   return (
-    <div class="flex-col">
-      <div id="navbar" class="navbar-grow fixed top-5 w-80 flex justify-end" >        
+    <div className="flex-col">
+      <div id="navbar" className="navbar-grow fixed top-5 w-80 flex justify-end" >        
         <NavBar styles="w-full" />
       </div>
-      <div id="body" class="body-grow mx-auto mt-24">
-        <h1 class="relative inline text-3xl py-2 text-vanillaberry font-bold">
+      <div id="body" className="body-grow max-w-full">
+        <h1 className="relative inline text-3xl py-2 text-vanillaberry font-bold">
             Martin Gawron
-          </h1>
+        </h1>
+        <TypingTextList texts={attr} styles="pt-2 pl-5" />
       </div>
     </div>
   )
