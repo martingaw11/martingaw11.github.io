@@ -31,7 +31,9 @@ const TypingTextList = ({ texts, typingSpeed = 100, pauseTime = 800, styles }) =
     return () => clearTimeout(timer); // Cleanup timer
   }, [currentText, isTyping, textIndex, texts, typingSpeed, pauseTime]);
 
-  return <h3 className={`font-mono text-lg ${styles}`} >{currentText}</h3>;
+  return (
+    <h3 className={`font-mono text-lg ${styles}`} >{currentText}</h3>
+  );
 };
 
 export default TypingTextList;

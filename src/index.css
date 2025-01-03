@@ -44,3 +44,24 @@
 .indent-grow {
   @apply px-2 sm:px-3 md:px-4 lg:px-5 xl:px-5;
 }
+
+.skill-card-grow {
+  @apply w-32 sm:w-36 md:w-48 lg:w-52 xl:w-52;
+  @apply mx-2 sm:mx-3 md:mx-4 lg:mx-4 xl:mx-4;
+  @apply my-3 sm:my-4 md:my-4 lg:my-4 xl:my-4;
+  @apply shadow-lg md:shadow-xl lg:shadow-xl xl:shadow-xl;
+}
+
+.skill-card-pop {
+  @apply relative top-1 hover:top-0;
+  @apply hover:shadow-lg-pop md:hover:shadow-xl-pop lg:hover:shadow-xl-pop xl:hover:shadow-xl-pop;
+}
+
+.skill-grow {
+  @apply text-sm sm:text-base md:text-lg lg:text-lg xl:text-lg;
+  @apply mr-2 sm:mr-2 md:mr-3 lg:mr-4 xl:mr-4;
+}
+
+.icon-grow {
+  @apply w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-12 xl:h-12;
+}

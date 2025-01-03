@@ -12,7 +12,10 @@ export default {
       },
       boxShadow: {
         'DEFAULT': '0 5px 5px rgba(0, 0, 0, 0.15)',
-        'xl': '0 5px 15px 2px rgba(40, 40, 116, 0.4)'
+        'lg': '0 5px 10px 2px rgba(40, 40, 116, 0.4)',
+        'lg-pop': '0 3px 12px 2px rgba(40, 40, 116, 0.4)',
+        'xl': '0 5px 15px 2px rgba(40, 40, 116, 0.4)',
+        'xl-pop': '0 3px 20px 2px rgba(40, 40, 116, 0.4)',
       }
     },
   },

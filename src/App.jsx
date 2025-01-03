@@ -14,7 +14,6 @@ const skillSet = [
 
 function App() {
   
-
   return (
     <div className="flex-col">
       <div id="navbar" className="navbar-grow fixed top-5 w-80 flex justify-end" >        
