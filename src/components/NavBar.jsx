@@ -10,7 +10,7 @@ const NavBar = ({styles}) => {
         <a className="navbar-link" href="#" >Projects</a>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default NavBar;

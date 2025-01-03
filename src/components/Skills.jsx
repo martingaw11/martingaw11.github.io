@@ -1,6 +1,6 @@
 import React from "react";
 
-const SkillsCard = ({ skillSet, styles }) => {
+const Skills = ({ skillSet, styles }) => {
   
   return (
     <>
@@ -16,7 +16,7 @@ const SkillsCard = ({ skillSet, styles }) => {
         </div>
       </div>
     </>
-  )
+  );
 };
 
-export default SkillsCard;
+export default Skills;
