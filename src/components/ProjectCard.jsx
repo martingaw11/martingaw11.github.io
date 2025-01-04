@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
 
         <div id="bottom-half" className="" >
           <div id="url-sect" >
-            <a href={project.url} target="_blank" rel="noopener noreferrer" className="view-link mb-2" >View</a>
+            <a href={project.url} target="_blank" rel="noopener noreferrer" className="view-link mb-4" >View</a>
             <span id="spacer" />
           </div>
           <div id="tools" className="flex jusitfy-start" >

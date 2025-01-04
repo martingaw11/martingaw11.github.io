@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import Skills from './components/Skills';
 import TypingTextList from './components/TypingTextList';
@@ -8,10 +9,30 @@ import attr from './data/descriptors';
 import './index.css';
 
 function App() {
-  
+  const [prevScrollY, setPrevScrollY] = useState(window.scrollY);
+  const [navbarTop, setNavbarTop] = useState('10');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (prevScrollY > currentScrollY) {
+        setNavbarTop('10');
+      }
+      else {
+        setNavbarTop('-70')
+      }
+      setPrevScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }
+  }, [prevScrollY]);
+
   return (
     <div className="flex-col">
-      <div id="navbar" className="navbar-grow fixed top-5 w-80 flex justify-end" >        
+      <div id="navbar" className="navbar-grow fixed w-80 flex justify-end" style={{ top: `${navbarTop}px` }} >        
         <NavBar styles="w-full" />
       </div>
 
