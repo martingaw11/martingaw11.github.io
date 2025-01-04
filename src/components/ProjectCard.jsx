@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
     <>
       <div id="project-card" className="project-card-pop project-card-grow flex flex-col justify-between px-6 py-5 rounded-xl" >
         <div id="top-half" >
-          <h3 className="text-xl font-bold" >{project.title}</h3>
+          <h3 className="text-2xl font-bold" >{project.title}</h3>
           <p className="mt-2" >{project.description}</p>
         </div>
 
