@@ -1,16 +1,11 @@
 import NavBar from './components/NavBar';
 import Skills from './components/Skills';
 import TypingTextList from './components/TypingTextList';
+import Projects from './components/Projects';
+import projects from './data/projects';
+import skillSet from './data/skills';
+import attr from './data/descriptors';
 import './index.css';
-
-const attr = [
-  "Dev Intern w/ Intelligent Automation @ The Cincinnati Insurance Companies",
-  "Computer Science and Software Engineering @ UIC",
-];
-
-const skillSet = [
-  "React", "Python", "Java", "HTML", "CSS", "JavaScript"
-];
 
 function App() {
   
@@ -36,9 +31,9 @@ function App() {
           <Skills skillSet={skillSet} styles="mt-10" />
         </div>
 
-        <div id="projects" className="mt-16" >
-          <h2 className="text-2xl text-vanillaberry font-bold" >Projects</h2>
-          <Projects />
+        <div id="projects" className="my-12" >
+          <h2 className="text-2xl text-vanillaberry font-bold my-6" >Projects</h2>
+          <Projects projectList={projects} />
         </div>
       </div>
     </div>
