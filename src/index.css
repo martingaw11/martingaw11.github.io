@@ -7,6 +7,7 @@
 }
 
 .navbar-grow {
+  z-index: 10;
   @apply right-7 sm:right-14 md:right-32 lg:right-64 xl:right-80;
   @apply top-2 sm:top-3 md:top-4 lg:top-5 xl:top-5;
   @apply w-80 lg:w-96 xl:w-96;
@@ -63,5 +64,37 @@
 }
 
 .icon-grow {
-  @apply w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-12 xl:h-12;
+  @apply w-8 h-8 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-12 xl:h-12;
+}
+
+.view-link {
+  @apply inline-block text-lg text-peach font-bold relative;
+}
+
+.view-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0.125rem;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 250ms ease-out;
+  background-color: #8e101b;
+}
+
+.view-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.project-card-pop {
+  @apply relative top-1 hover:top-0 shadow-xl;
+  @apply hover:shadow-lg-pop md:hover:shadow-xl-pop lg:hover:shadow-xl-pop xl:hover:shadow-xl-pop;
+}
+
+.project-card-grow {
+  @apply h-72 sm:h-72 md:h-80 lg:h-80 xl:h-80 max-w-96;
+  @apply w-5/6 sm:w-5/6 md:w-5/12 md:min-w-80 lg:w-5/12 lg:min-w-80 xl:w-5/12 xl:min-w-80;
 }

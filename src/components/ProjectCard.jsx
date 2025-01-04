@@ -5,18 +5,27 @@ const ProjectCard = ({ project }) => {
   
   return (
     <>
-      <div id="project-card" className="flex flex-col h-64 w-96 justify-between px-4 py-6 rounded-xl shadow-xl" >
-        <h3 className="text-lg font-semibold" >{project.title}</h3>
-        <p>{project.description}</p>
-        <a href={project.url} target="_blank" rel="noopener noreferrer">View</a>
-        <div id="tools" className="flex jusitfy-start" >
-          {project.tools.map((tool, index) => (
-            <img key={index} src={logoMap[tool]} alt={tool} className="icon-grow" />
-          ))}
+      <div id="project-card" className="project-card-pop project-card-grow flex flex-col justify-between px-6 py-5 rounded-xl" >
+        <div id="top-half" >
+          <h3 className="text-xl font-bold" >{project.title}</h3>
+          <p className="mt-2" >{project.description}</p>
+        </div>
+
+        <div id="bottom-half" className="" >
+          <div id="url-sect" >
+            <a href={project.url} target="_blank" rel="noopener noreferrer" className="view-link mb-2" >View</a>
+            <span id="spacer" />
+          </div>
+          <div id="tools" className="flex jusitfy-start" >
+            {project.tools.map((tool, index) => (
+              <img key={index} src={logoMap[tool]} alt={tool} title={tool} className="icon-grow mr-3" />
+            ))}
+          </div>
         </div>
       </div>
     </>
   );
 };
+
 
 export default ProjectCard;

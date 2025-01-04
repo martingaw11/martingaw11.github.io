@@ -6,8 +6,10 @@ const logoMap = {
   "JavaScript": "/logos/JavaScript.png",
   "LinkedIn": "/logos/LinkedIn.png",
   "Python": "/logos/Python.png",
-  "React": "/logos/React.png",
+  "React": "/logos/React.svg",
   "Tailwind-CSS": "/logos/Tailwind-CSS.svg",
+  "MUI": "/logos/MUI.png",
+  ".NET": "/logos/DotNet.png",
 };
 
 export default logoMap;
