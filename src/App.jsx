@@ -43,10 +43,10 @@ function App() {
                 Martin Gawron
             </h1>
             <a href='https://www.linkedin.com/in/gawron-martin/' target="_blank" rel="noopener noreferrer" className="mr-2" >
-              <img src='public/logos/LinkedIn.png' className="w-8 h-7 mt-1" />
+              <img src='/logos/LinkedIn.png' className="w-8 h-7 mt-1" />
             </a>
             <a href='https://github.com/martingaw11' target="_blank" rel="noopener noreferrer" >
-              <img src='public/logos/GitHub.png' className="w-8 h-8" />
+              <img src='/logos/GitHub.png' className="w-8 h-8" />
             </a>
           </div>
           <TypingTextList texts={attr} typingSpeed={90} pauseTime={750} styles="indent-grow py-2" />
