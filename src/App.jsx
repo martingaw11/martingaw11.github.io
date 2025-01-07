@@ -38,9 +38,17 @@ function App() {
 
       <div id="body" className="body-grow max-w-full">
         <div id="header" className="min-h-36" >
-          <h1 className="relative inline text-4xl py-2 text-seablue font-bold">
-              Martin Gawron
-          </h1>
+          <div className="flex flex-row justify-start items-center" >
+            <h1 className="relative inline text-4xl py-2 text-seablue font-bold mr-4">
+                Martin Gawron
+            </h1>
+            <a href='https://www.linkedin.com/in/gawron-martin/' target="_blank" rel="noopener noreferrer" className="mr-2" >
+              <img src='public/logos/LinkedIn.png' className="w-8 h-7 mt-1" />
+            </a>
+            <a href='https://github.com/martingaw11' target="_blank" rel="noopener noreferrer" >
+              <img src='public/logos/GitHub.png' className="w-8 h-8" />
+            </a>
+          </div>
           <TypingTextList texts={attr} typingSpeed={90} pauseTime={750} styles="indent-grow py-2" />
         </div>
 
