@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "Slide-n-Seek",
+    description: "SparkHacks 2025. Our team of 4 developed a web extension that allows the user to describe their dream job and the AI will apply filters to LinkedIn's job search to find the best jobs for the user.",
+    url: "https://github.com/TheRoadSurgeon/Slide-n-Seek",
+    tools: ["JavaScript", "HTML", "CSS", "OpenAI"]
+  },
+  {
     title: "PatientCare+",
     description: "Collaborated with a team of 4 to develop a web application that allows patients to easily connect with their doctors and gain insightful feedback on their recorded health metrics.",
     url: "https://github.com/martingaw11/patient-care-plus",

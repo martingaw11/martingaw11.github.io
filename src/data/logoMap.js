@@ -10,6 +10,7 @@ const logoMap = {
   "Tailwind-CSS": "/logos/Tailwind-CSS.svg",
   "MUI": "/logos/MUI.png",
   ".NET": "/logos/DotNet.png",
+  "OpenAI": "/logos/OpenAI.png",
 };
 
 export default logoMap;
